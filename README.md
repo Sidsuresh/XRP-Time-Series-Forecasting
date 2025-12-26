@@ -1,8 +1,8 @@
-# 36120-25sp-at3-group17-streamlit
+# XRP-Time-Series-Forecasting
 
 ## Overview
 
-This project is a **Streamlit web application** for users interested in investing in cryptocurrencies. It uses Python 3.11.4 (managed via `pyenv`), Streamlit, Plotly, and other dependencies managed via Poetry.
+This project is a **Streamlit web application** which predicts the high prices for the Cryptocurrency Ripple (XRP) for users interested in investing in cryptocurrencies. It uses Python 3.11.4 (managed via `pyenv`), Streamlit, Plotly, and other dependencies managed via Poetry.
 
 ---
 
@@ -20,8 +20,8 @@ This project is a **Streamlit web application** for users interested in investin
 1. **Clone the GitHub Repo**
 
 ```bash
-git clone https://github.com/Sidsuresh/36120-25SP-AT3-Group17-streamlit.git
-cd 36120-25SP-AT3-Group17-streamlit
+git clone https://github.com/Sidsuresh/XRP-Time-Series-Forecasting.git
+cd XRP_Forecast
 ```
 
 2. **Install the correct Python version with pyenv**
@@ -46,7 +46,7 @@ poetry run streamlit run app/main.py
 The app will start locally [here](http://localhost:8501)
 
 ---
-## 🚀 Deployed Links
+## 🚀 Deployed Link
 
-1. [Streamlit Community Cloud](https://36120-25sp-at3-group17-app.streamlit.app/)
-2. [Render](https://three6120-25sp-at3-group17-streamlit.onrender.com/)
+1. [Streamlit Community Cloud](https://xrp-forecast.streamlit.app/)
+2. [FastAPI hosting the ML Model](https://fastapi-25548684-at3-latest.onrender.com/)
